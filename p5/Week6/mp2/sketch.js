@@ -6,7 +6,7 @@ var x = x + 5
 
 
 function preload() {
-  royal = loadFont("assets/royal.ttf") ;
+  royal = loadFont("royal.ttf") ;
 
 }
 
@@ -14,13 +14,13 @@ function setup() {
   // put setup code here
   createCanvas(800, 800);
   textFont(royal, 28);
-  luka = loadImage("assets/Luka.jpg");
-  lukD = loadImage("assets/LukD.jpg");
-  lukaAs = loadImage("assets/LukaAs.jpg");
-  lUKAH = loadImage("assets/LUKAH.jpg");
-  lukaM = loadImage("assets/LukaMVP.jpg");
-  lp = loadImage("assets/LP.jpg");
-  lukaA = loadImage("assets/LukaA.jpg");
+  luka = loadImage("Luka.jpg");
+  lukD = loadImage("LukD.jpg");
+  lukaAs = loadImage("LukaAs.jpg");
+  lUKAH = loadImage("LUKAH.jpg");
+  lukaM = loadImage("LukaMVP.jpg");
+  lp = loadImage("LP.jpg");
+  lukaA = loadImage("LukaA.jpg");
 }
 
 function draw() {
