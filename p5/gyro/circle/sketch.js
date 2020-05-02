@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
 
-  background('#c6f5ff'); // light blue
+  background('red');
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -65,7 +65,7 @@ function draw() {
   // MORE DECORATIONS - write that pretty ATK type on top.
   fill('gray');
   noStroke();
-  textSize(100);
+  textSize(50);
   textAlign(CENTER);
   text("Stay Home", width / 2, height / 2);
 
